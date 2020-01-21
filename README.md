@@ -1,10 +1,10 @@
 # 3-D Lidar Scanner
 
-The 3-D LIDAR Scanner was a project to learn more about LIDAR and its ability to map an area into point clouds.  In order to map a room, I used a TFMini LIDAR I2C module to measure individual point distances, rho, ranging from 30 cm to 12 m.  I swept the LIDAR module in the theta direction using a stepper motor and in phi direction using a servo motor, providing a field of view of nearly 360 degrees.  This program outputs X, Y, and Z coordinates in the serial.
+The 3-D LIDAR Scanner was a project to learn more about LIDAR and its ability to map an area into point clouds.  In order to map a room, I used a TFMini LIDAR I2C module to measure individual point distances, rho, ranging from 30 cm to 12 m.  I swept the LIDAR module in the theta direction using a stepper motor and in phi direction using a servo motor, providing a field of view of nearly 360 degrees.  This program outputs X, Y, and Z coordinates in the serial monitor.
 
 ### Prerequisites
 
-Uses the Adafruit Motorshield V2.
+Uses the Adafruit Motorshield V2, NEMA 17 stepper, Arduino Uno Qwiic, 9g servo.
 
 ### Installing
 
